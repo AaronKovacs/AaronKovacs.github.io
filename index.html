@@ -94,10 +94,7 @@
 			font-size: 1.3em;
 		}
 
-		.screenshot {
-			border: 0.5px solid #d2d2d4;
-    		border-radius: 8px;
-		}
+		
 
 		.blankIcon {
     		border-radius: 25%;
@@ -128,6 +125,14 @@
 			margin-left: 0;
 		}
 
+		.screenshot {
+			border: 0.5px solid #d2d2d4;
+    		border-radius: 8px;
+    		width: 100%;
+
+		}
+
+
 		@media only screen and (min-width: 690px) {
 			.containerLeft {
 			    width: 50%;
@@ -135,16 +140,21 @@
 			    float: left;
 			    align-self: center;
 			}
-
-			img {
-				margin-left: 0%;
-			}
-
 			.containerRight {
 			    margin-left: 50%;
 			    width: 50%;
 			    float: none;
 			}
+
+			img {
+				margin-left: 0%;
+			}
+
+			.screenshot {
+				width: auto;
+    			height: 600px;
+			}
+
 		}
 
 		footer {
@@ -168,7 +178,7 @@
 		<div class="containerLeft">
 			<img src="./Comet.png" width="80" height="80" /><br/>
 			<div>
-				<img class="screenshot" src="./CometScreenshot.jpg" height="600px"/>
+				<img class="screenshot" src="./CometScreenshot.jpg"/>
 			</div>
 			<center>
 				<p>
@@ -182,7 +192,7 @@
 		<div class="containerRight">
 			<img src="./ScreenPlay.png" width="80" height="80" /><br/>
 			<div>
-				<img class="screenshot" src="./ScreenPlayScreenshot.jpg" height="600px"/>
+				<img class="screenshot" src="./ScreenPlayScreenshot.jpg"/>
 			</div>
 			<center>
 				<p>
@@ -199,7 +209,7 @@
 		<div class="containerLeft">
 			<img src="./GameBuzzer.png" width="80" height="80" /><br/>
 			<div>
-				<img class="screenshot" src="./GameBuzzerScreenshot.jpg" height="600px"/>
+				<img class="screenshot" src="./GameBuzzerScreenshot.jpg"/>
 			</div>
 			<center>
 				<p>
@@ -213,7 +223,7 @@
 		<div class="containerRight">
 			<img src="./RequestRobin.png" width="80" height="80" /><br/>
 			<div>
-				<img class="screenshot" src="./RequestRobinScreenshot.png" height="600px"/>
+				<img class="screenshot" src="./RequestRobinScreenshot.png"/>
 			</div>
 			<center>
 				<p>
@@ -230,7 +240,7 @@
 		<div class="containerLeft">
 			<img src="./PenaltyBox.png" width="80" height="80" /><br/>
 			<div>
-				<img class="screenshot" src="./PenaltyBoxScreenshot.png" height="600px"/>
+				<img class="screenshot" src="./PenaltyBoxScreenshot.png"/>
 			</div>
 			<center>
 				<p>
@@ -259,7 +269,7 @@
 </body>
 <footer>
 	<center>
-		Copyright 2018 All rights reserved
+		&copy; 2018 Aaron Kovacs All Rights Reserved
 	</center>
 </footer>
 </html>
