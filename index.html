@@ -15,7 +15,6 @@
 	<meta name="twitter:title" value="Aaron Kovacs" />
 	<meta name="twitter:description" value="Freelance iOS and Web Developer" />
 
-
 	<style>
 		body {
 			font-family: "Avenir Next", avenir, helvetica, sans-serif;
@@ -33,6 +32,7 @@
 			margin-top: 200px;
 			margin-bottom: 16px;
 			display: inline-block;
+			margin-left: 0%;
 		}
 
 		h1 {
@@ -112,14 +112,39 @@
 		.container {
 		    width: 100%;
 		    margin: auto;
-		}
+		}	
+
 		.containerLeft {
-		    width: 50%;
-		    float: left;
+			width: 100%;
+			float: left;
 		}
+
 		.containerRight {
-		    margin-left: 50%;
-		    width: 50%;
+			width: 100%;
+			float: left;
+		}
+
+		img {
+			margin-left: 0;
+		}
+
+		@media only screen and (min-width: 690px) {
+			.containerLeft {
+			    width: 50%;
+			    
+			    float: left;
+			    align-self: center;
+			}
+
+			img {
+				margin-left: 0%;
+			}
+
+			.containerRight {
+			    margin-left: 50%;
+			    width: 50%;
+			    float: none;
+			}
 		}
 
 		footer {
