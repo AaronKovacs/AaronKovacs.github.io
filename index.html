@@ -9,7 +9,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Aaron Kovacs">
 	<meta property="og:title" content="Aaron Kovacs" />
-	<meta property="og:description" content="Freelance iOS and Web Developer" />
+	<meta property="og:description" content="iOS and Web Developer" />
 	<meta property="og:image" content="./Profile.jpg" />
 	<meta property="og:image:width" content="594" />
 	<meta property="og:image:height" content="594" />
@@ -17,284 +17,1026 @@
 	
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" value="Aaron Kovacs" />
-	<meta name="twitter:description" value="Freelance iOS and Web Developer" />
+	<meta name="twitter:description" value="iOS and Web Developer" />
 
-	<style>
-		body {
-			font-family: "Avenir Next", avenir, helvetica, sans-serif;
-			max-width: 600px;
-			margin: 0 auto;
-			padding: 0px 20px 40px 20px;
-			font-size: 1.1em;
-			line-height: 1.6em;
-			color: #444;
-		}
-		
-		.profile {
-			border: 0.5px solid #d2d2d4;
-			border-radius: 50%;
-			margin-top: 200px;
-			margin-bottom: 16px;
-			display: inline-block;
-			margin-left: 0%;
-		}
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <style type="text/css">
 
-		h1 {
-			background-size: 300px auto;
-			font-family: avenir, helvetica, sans-serif;
-			margin: 0px;
-			text-align: center;
-			font-weight: 200;
-			font-size: 3.2em;
-			line-height: 1.1em;
-			color: #000;
-		}
-		
-		h2 {
-			font-family: avenir, helvetica, sans-serif;
-			font-weight: 200;
-			font-size: 1.8em;
-			margin-top: 50px;
-			line-height: 1.1em;
-		}
+        @font-face {
+            font-family: 'CircularStd';
+            src: url('fonts/CircularStd.otf'); /* IE9 Compat Modes */
+        }
 
-		h3 {
-			font-family: avenir, helvetica, sans-serif;
-			font-weight: 150;
-			font-size: 1.4em;
-			margin-top: 50px;
-			line-height: 2.0em;
-		}
+        html {
+            background-color: black;
+        }
 
-		h4 {
-			font-family: avenir, helvetica, sans-serif;
-			font-weight: 500;
-			font-size: 1.1em;
-		}
-		
-		strong {
-			font-weight: 600;
-		}
+        body {
+           font-family: 'Varela Round', sans-serif;
+           max-width: 600px;
+           margin: 0 auto;
+           padding: 0px 20px 40px 20px;
+           font-size: 1.1em;
+           line-height: 1.6em;
+           color: #000;
+       }
 
-		b {
-			font-weight: 500;
-		}
-		
-		a {
-			color: #6ea3f4;
-			text-decoration: none;
-		}
-		
-		blockquote {
-			margin: 0;
-			padding: 10px 20px;
-			background-color: #f7f7f7;
-			border-radius: 8px;
-		}
+       .profile {
+        border-radius: 50%;
+        margin-left: 1.5em;
+        height: 100%;
+    }
 
-		.subtitle p {
-			font-family: avenir, helvetica, sans-serif;
-			font-weight: 400;
-			font-size: 1.3em;
-		}
+    .color-bar-container {
+        position: absolute;
+        left: 0;
+        width: 100vw;
+    }
 
-		
+    .color-bars {
+        height: 20px;
+    }
 
-		.blankIcon {
-			border-radius: 25%;
-			background-color: #EFEFEF;
-		}
+    .color-bars:nth-child(1) {
+        background-color: #4CA7E1;
 
-		.blankScreenshot {
-			border-radius: 8px;
-			background-color: #EFEFEF;
-		}
+    }
 
-		.container {
-			width: 100%;
-			margin: auto;
-		}	
+    .color-bars:nth-child(2) {
+        background-color: #50AF61;
+    }
 
-		.containerLeft {
-			width: 100%;
-			float: left;
-		}
+    .color-bars:nth-child(3) {
+        background-color: #F5C846;
+    }
 
-		.containerRight {
-			width: 100%;
-			float: left;
-		}
+    .color-bars:nth-child(4) {
+        background-color: #E9903F;
+    }
 
-		img {
-			margin-left: 0;
-		}
+    .color-bars:nth-child(5) {
+        background-color: #D74030;
+    }
+</style>
 
-		.screenshot {
-			border: 0.5px solid #d2d2d4;
-			border-radius: 8px;
-			width: 100%;
-
-		}
+<style>
 
 
-		@media only screen and (min-width: 690px) {
-			.containerLeft {
-				width: 50%;
 
-				float: left;
-				align-self: center;
-			}
-			.containerRight {
-				margin-left: 52%;
-				width: 50%;
-				float: none;
-			}
 
-			img {
-				margin-left: 0%;
-			}
+   h1 {
+       background-size: 300px auto;
+       font-family: 'Varela Round', sans-serif;
+       margin: 0px;
+       text-align: center;
+       font-weight: 200;
+       font-size: 3.2em;
+       line-height: 1.1em;
+       color: #000;
+   }
 
-			.screenshot {
-				width: auto;
-				height: 600px;
-			}
+   h2 {
+       font-family: 'Varela Round', sans-serif;
+       font-weight: 200;
+       font-size: 1.8em;
+       margin-top: 50px;
+       line-height: 1.1em;
+   }
 
-		}
+   h3 {
+       font-family: 'Varela Round', sans-serif;
+       font-weight: 150;
+       font-size: 1.4em;
+       margin-top: 50px;
+       line-height: 2.0em;
+   }
 
-		footer {
-			color: #b4b5b7;
-		}
+   h4 {
+       font-family: 'Varela Round', sans-serif;
+       font-weight: 500;
+       font-size: 1.1em;
+   }
 
-	</style>
+   strong {
+       font-weight: 600;
+   }
+
+   b {
+       font-weight: 500;
+       color: white;
+   }
+
+   a {
+       color: #6ea3f4;
+       text-decoration: none;
+   }
+
+   blockquote {
+       margin: 0;
+       padding: 10px 20px;
+       background-color: #1A1A1A;
+       border-radius: 16px;
+       color: white;
+   }
+
+   .subtitle p {
+       font-family: 'Varela Round', sans-serif;
+       font-weight: 400;
+       font-size: 1.3em;
+   }
+
+
+
+   .blankIcon {
+       border-radius: 25%;
+       background-color: #EFEFEF;
+   }
+
+   .blankScreenshot {
+       border-radius: 8px;
+       background-color: #EFEFEF;
+   }
+
+   .container {
+       width: 100%;
+       margin: auto;
+   }	
+
+   .containerLeft {
+       width: 100%;
+       float: left;
+   }
+
+   .containerRight {
+       width: 100%;
+       float: left;
+   }
+
+   img {
+       margin-left: 0;
+   }
+
+   .screenshot {
+    border-radius: 8px;
+    width: 100%;
+
+}
+
+.icon {
+    border-radius: 30%
+}
+
+@media only screen and (min-width: 690px) {
+   .containerLeft {
+    width: 50%;
+
+    float: left;
+    align-self: center;
+}
+.containerRight {
+    margin-left: 52%;
+    width: 50%;
+    float: none;
+}
+
+img {
+    margin-left: 0%;
+}
+
+.screenshot {
+    width: auto;
+    height: 600px;
+}
+
+}
+
+footer {
+   color: #b4b5b7;
+}
+
+.link-circle-container {
+    position: absolute; 
+    bottom: 20px; 
+    right: 20px; 
+    display: inline-block; 
+    margin-right: 10px;
+}
+
+.link-circle-button {
+    background-color: #292929;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.link-circle-button img {
+    object-fit: contain; 
+    width: 100%; 
+    height: 100%; 
+    color: white;
+}
+
+.real-name-container {
+    flex: 1; 
+    background: black; 
+    align-self: center;
+}
+
+.real-name-container h1 {
+    text-shadow: 2px 2px 4px red, 2px 2px 4px orange, 2px 2px 6px yellow;
+    font-family: 'Roboto', sans-serif; 
+    font-style: oblique; color:white; 
+    font-weight: 2000; 
+    font-size: 31pt;
+}
+
+.white-header {
+    background-color: white; 
+    position: absolute; 
+    left: 0; top: 0; 
+    height: 310px; 
+    width: 100vw; 
+    z-index: -1;
+}
+
+body {
+    margin-top: 5em;
+}
+
+.header-container {
+    margin-top:10em;
+    width: 93%;
+    height: 200px;
+    background: black;
+    margin: auto;
+    padding: 20px; 
+    display: flex; 
+    border-radius: 15px 15px 0 0; 
+    position: relative;
+}
+
+.profile-img-container {
+    flex: 0 0 40%; 
+    height: 200px; 
+    background: black;
+}
+
+.profile-img-container img {
+    object-fit: contain;
+}
+
+
+.bookshlf-container {
+    margin-top:10em; 
+    margin-bottom:10em;
+    width: 100%;
+    height: 590px;
+    background: black;
+    margin: auto;
+    display: flex; 
+    border-radius: 15px; 
+    position: relative;
+}
+
+.bookshlf-screenshot {
+    object-fit: cover;  
+    width: 100%; 
+    height: 100%; 
+    border-radius: 15px;
+}
+
+.bookshlf-large-title {
+    font-family: 'Roboto', sans-serif;
+    color:white; font-weight: 1000; 
+    font-size: 20pt; 
+    margin: 0; 
+    line-height: 1em;
+}
+
+.bookshlf-large-subtitle {
+    font-family: 'Roboto', sans-serif;
+    color:white; font-weight: normal; 
+    font-size: 10pt; 
+    margin: 0; 
+    line-height: 1em;
+}
+
+.bookshlf-quote-card {
+    margin-top:1em; 
+    width: 100%; 
+    background: #1A1A1A; 
+    margin: auto; 
+    border-radius: 15px;
+    position: relative;
+    padding-bottom: 0.5em;
+}
+
+.bookshlf-quote-card p {
+    line-height: 1.5em; 
+    color:white; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12pt; 
+    padding: 20px; 
+    text-align: center; 
+    margin-bottom: 0;
+}
+
+.bookshlf-quote-card img {
+    object-fit: contain; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+    margin-bottom: 1em;
+}
+
+.bookshlf-position-card {
+    margin-top:1em; 
+    width: 100%; 
+    background: #1A1A1A; 
+    margin: auto; 
+    border-radius: 15px; 
+    position: relative; 
+    padding-bottom: 0.5em;
+}
+
+.bookshlf-position-card h4{
+    line-height: 1.5em; 
+    color:white; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12pt; 
+    font-weight: bold; 
+    padding: 20px; 
+    text-align: left; 
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+
+.bookshlf-position-card p {
+    line-height: 1.5em; 
+    color: white; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 10pt; 
+    padding: 20px; 
+    text-align: left; 
+    margin-bottom: 0; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+    margin-top: 0; 
+    margin-bottom: 0.4em;
+}
+
+.bookshlf-appstore {
+    display: block;
+    overflow: hidden;
+    background: url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-11-26&kind=iossoftware&bubble=ios_apps) no-repeat;
+    width: 135px;
+    height: 40px; 
+    margin-top: 1em; 
+    margin-left: auto;
+    margin-right: auto
+}
+
+.college-card {
+    margin-top: 10em;
+    margin-bottom: 10em;
+    width: 93%;
+    height: 120px;
+    background: #1A1A1A;
+    margin: auto;
+    padding: 20px; 
+    display: flex; 
+    border-radius: 15px; 
+    position: relative;
+}
+
+.college-card img {
+    object-fit: contain;  
+    width: 100%; 
+    height: 100%;
+}
+
+.college-card-title {
+    font-family: 'Roboto', sans-serif; 
+    color:white; 
+    font-weight: 1000; 
+    font-size: 18pt; 
+    margin: 0;
+}
+
+.college-card-subtitle {
+    font-family: 'Roboto', 
+    sans-serif;  
+    color:white; 
+    font-weight: 300; 
+    font-size: 14pt; 
+    margin: 0;
+}
+
+.college-card-pretitle {
+    font-family: 'Roboto', 
+    sans-serif;  
+    color:white; 
+    font-weight: 300;
+    opacity: 0.6;
+    font-size: 14pt; 
+    margin: 0;
+}
+
+.vytality-card {
+    margin-top:10em; 
+    margin-bottom:10em;
+    width: 93%;
+    height: 120px;
+    background: #1A1A1A;
+    margin: auto;
+    padding: 20px; 
+    display: flex; 
+    border-radius: 15px; 
+    position: relative;
+}
+
+.vytality-card img{
+    object-fit: contain;  
+    width: 100%; 
+    height: 100%;
+}
+
+.vytality-card p{
+    font-family: 'Roboto', sans-serif; 
+    color:white; margin: 0;
+}
+
+.comet-container {
+    margin-top:10em; 
+    margin-bottom:10em;
+    width: 100%;
+    height: 590px;
+    background: black;
+    margin: auto;
+    display: flex; 
+    border-radius: 15px; 
+    position: relative;
+}
+
+.comet-icon {
+    object-fit: cover;  
+    width: 100%; 
+    height: 100%; 
+    border-radius: 15px;
+}
+
+.comet-title {
+    font-family: 'Roboto', sans-serif; 
+    color:white; 
+    font-weight: 1000; 
+    font-size: 20pt; 
+    margin: 0; 
+    line-height: 1em;
+}
+
+.comet-subtitle {
+    font-family: 'Roboto', sans-serif; 
+    color:white; 
+    font-weight: normal; 
+    font-size: 10pt; 
+    margin: 0; 
+    line-height: 1em;
+}
+
+.comet-quote-card {
+    margin-top:1em; 
+    width: 100%; 
+    background: #1A1A1A; 
+    margin: auto; 
+    border-radius: 15px; 
+    position: relative; 
+    padding-bottom: 0.5em;
+}
+
+.comet-quote-card p {
+    line-height: 1.5em; 
+    color:white; 
+    font-family: 'Roboto', 
+    sans-serif; 
+    font-size: 12pt; 
+    padding: 20px; 
+    text-align: center; 
+    margin-bottom: 0;
+}
+
+.disaster-consult-container {
+    margin-top:10em; 
+    margin-bottom:10em;
+    width: 100%;
+    height: 590px;
+    background: black;
+    margin: auto; 
+    border-radius: 15px; 
+    position: relative;
+}
+.disaster-consult-title {
+    font-family: 'Roboto', sans-serif; 
+    color: white; 
+    font-weight: 1000; 
+    font-size: 20pt; 
+    margin: 0; 
+    line-height: 1em;
+}
+
+.disaster-consult-screenshot {
+    object-fit: cover;  
+    width: 100%; 
+    height: 100%; 
+    border-radius: 15px;
+}
+
+.disaster-consult-quote-card {
+    margin-top:1em; 
+    width: 100%; 
+    background: #1A1A1A; 
+    margin: auto; 
+    border-radius: 15px; 
+    position: relative; 
+    padding-bottom: 0.5em;
+}
+
+.disaster-consult-quote-card p {
+    line-height: 1.5em; 
+    color:white; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12pt; 
+    padding: 20px; 
+    text-align: center; 
+    margin-bottom: 0;
+}
+
+.disaster-consult-position {
+    margin-top:1em; 
+    width: 100%; 
+    background: #1A1A1A; 
+    margin: auto; 
+    border-radius: 15px; 
+    position: relative; 
+    padding-bottom: 0.5em;
+}
+
+.disaster-consult-position h4 {
+    line-height: 1.5em; 
+    color:white; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12pt; 
+    font-weight: bold; 
+    padding: 20px; 
+    text-align: left; 
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+
+.disaster-consult-position p {
+    line-height: 1.5em; 
+    color:white; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 10pt; 
+    padding: 20px; 
+    text-align: left; 
+    margin-bottom: 0; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+    margin-top: 0; 
+    margin-bottom: 0.4em;
+}
+
+.title-card {
+    flex: 1;  
+    align-self: 
+    flex-start; margin-left: 5%;
+}
+
+.disaster-consult-title-card {
+    display: flex;
+}
+
+.link-circles {}
+
+.page-content {}
+
+.mobile-collapse-space {
+    margin-top: 10em;
+}
+
+.app-collapse-space {
+    margin-top: 0;
+}
+
+.app-title-card {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.app-title {
+    font-family: 'Roboto', sans-serif; 
+    color: white; 
+    font-weight: 1000; 
+    font-size: 20pt; 
+    margin: 0; 
+    line-height: 1em;
+}
+
+.comet-appstore {
+    display: block;
+    overflow: hidden;
+    background: url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-11-26&kind=iossoftware&bubble=ios_apps) no-repeat;
+    width: 135px;
+    height: 40px; 
+    margin-top: 1em; 
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media only screen and (max-width: 600px) {
+    .app-title-card {
+        margin-bottom: 1em;
+    }
+
+    .app-title {
+        font-size: 20pt;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .mobile-collapse-space {
+        margin-top: 5em;
+    }
+
+    .app-collapse-space {
+        margin-top: 5em;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .white-header {
+        background-color: black;
+    }
+
+    .header-container {
+        display: block;
+        height: unset;
+        
+        width: 100%;
+        margin: none;
+        padding: 0;
+        padding-bottom: 3em;
+    }
+
+    .real-name-container {
+        margin-top: 1em;
+    }
+
+    .profile {
+        margin: auto;
+        display: block;
+    }
+
+    .link-circles {
+        margin: auto;
+        display: block;
+    }
+
+    .link-circle-container {
+        text-align: center;
+        position: relative;
+        display: block;
+        right: 0;
+        margin-right: 0;
+        margin-top: 2em;
+    }
+
+    .page-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .college-card {
+        width: 86%;
+    }
+
+    .vytality-card {
+        width: 86%;
+    }
+
+    .college-card-title {
+        font-size: 16pt;
+    }
+
+    .college-card-subtitle {
+        font-size: 12pt;
+    }
+
+    .bookshlf-container {
+        display: block;
+        height: unset;
+    }
+
+    .title-card {
+        margin-top: 1em;
+        margin-left: 0;
+    }
+
+    .comet-container {
+        display: block;
+        height: unset;
+    }
+
+    .disaster-consult-container {
+        height: unset;
+    }
+
+    .disaster-consult-title-card {
+        margin-bottom: 1em;
+    }
+
+}
+
+</style>
+
 </head>
 <body>
-	<div class="header">
-		<center><img class="profile" src="./Profile.jpg" width="150" height="150" /><br/></center>
-		<h1 class="name">Aaron Kovacs</h1>
-		<center><p class="subtitle">Freelance iOS and Web Developer</p></center>
-	</div>
+    <div class="white-header"></div>
+    <div class="header-container">
+        <div class="profile-img-container">
+            <img class="profile" src="./Profile.jpg" />
+        </div>
+        <div class="real-name-container">
+            <h1>Aaron Kovacs</h1>
+        </div>
+        <div class="link-circle-container">
+            <div class="link-circles">
+                <a href="https://github.com/AaronKovacs">
+                    <div class="link-circle-button" >
+                        <img src="./github.png"/>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/aaron-kovacs-14a890181/">
+                    <div class="link-circle-button" style="margin-left: 10px;">
+                        <img src="./linkedin.png"/>
+                    </div>
+                </a>
+                <a href="mailto:aaronkovacsdev@gmail.com">
+                    <div class="link-circle-button" style="margin-left: 10px;">
+                        <img src="./email.png"/>
+                    </div>
+                </a>
+            </div>
+        </div>
 
-	<p style="text-indent: 50px;">
-		I am a freelance iOS, web, and backend developer based out of Washington, D.C.
-	</p>
+    </div>
 
-	<div class="container">
-		<div class="containerLeft">
-			<img src="./Comet.png" width="80" height="80" /><br/>
-			<div>
-				<img class="screenshot" src="./CometScreenshot.jpg"/>
-			</div>
-			<center>
-				<p>
-					<b>Comet for reddit</b><br/>
-					<blockquote style="margin-right: 10px;">
-						A fast and robust reddit client with a beautiful design. 
-						<br/><br/><a href="https://itunes.apple.com/us/app/comet-for-reddit/id1146204813?ls=1&mt=8">View on App Store</a>
-						<br/><a href="https://cometreddit.app/">Promotional Website</a>
+    <div class="color-bar-container">
+        <div class="color-bars"></div>
+        <div class="color-bars"></div>
+        <div class="color-bars"></div>
+        <div class="color-bars"></div>
+        <div class="color-bars"></div>
+    </div>
 
-					</blockquote>
-				</p>
-			</center>
-		</div>
-		<div class="containerRight">
-			<img src="./BASDEcho.png" width="80" height="80" /><br/>
-			<div>
-				<img class="screenshot" src="./BASDEchoScreenshot.jpg"/>
-			</div>
-			<center>
-				<p>
-					<b>BASD Echo</b><br/>
-					<blockquote>
-						The school newspaper reimagined. Currently available on the App Store with new issues every monday.
-						<br/><br/><a href="https://echo.basd.k12.pa.us/">Website</a>
-						<br/><a href="https://itunes.apple.com/us/app/basd-echo/id1438468307?ls=1&mt=8">View on App Store</a>
-					</blockquote>
-				</p>
-			</center>
-		</div>
-	</div>
+    <div style="margin-top: 150px;"></div>
 
-	<div class="container">
-		<div class="containerLeft">
-			<img src="./ScreenPlay.png" width="80" height="80" /><br/>
-			<div>
-				<img class="screenshot" src="./ScreenPlayScreenshot.png"/>
-			</div>
-			<center>
-				<p>
-					<b>Queued</b><br/>
-					<blockquote style="margin-right: 10px;">
-						A watershed app that gathers data about movies and TV from across the internet into a single easily digested feed. Spend less time looking and more time watching.
-						<br/><br/><a href="https://itunes.apple.com/us/app/queued-movie-and-tv-watchlist/id1445325036?ls=1&mt=8">View on App Store</a>
-					</blockquote>
-				</p>
-			</center>
-		</div>
-		<div class="containerRight">
-			<img src="./GameBuzzer.png" width="80" height="80" /><br/>
-			<div>
-				<img class="screenshot" src="./GameBuzzerScreenshot.png"/>
-			</div>
-			<center>
-				<p>
-					<b>Friend Game Buzzer</b><br/>
-					<blockquote>
-						Friend Game Buzzer is the perfect app to manage your next trivia night. One person can host up to 64 other contestants who can buzz in during questions. Currently has over <b>70k</b> downloads!
-						<br/><br/><a href="https://itunes.apple.com/us/app/friend-game-buzzer/id1303196209?ls=1&mt=8">View on App Store</a>
-					</blockquote>
-				</p>
-			</center>
-		</div>
-	</div>
+    <div class="page-content">
+        <div class="college-card">
+            <div style="flex: 0 0 30%; height: 100%;">
+                <img src="./gwu.png"/>
+            </div>
+            <div style="flex: 1;  align-self: center; margin-left: 5%;">
+                <p class="name college-card-pretitle">In-Progress</p>
+                <p class="name college-card-title" style="">B.S. Computer Science 2023</p>
+                <p class="name college-card-subtitle">The George Washington University</p>
+            </div>
 
-	<div class="container">
-		<div class="containerLeft">
-			<img src="./RequestRobin.png" width="80" height="80" /><br/>
-			<div>
-				<img class="screenshot" src="./RequestRobinScreenshot.png"/>
-			</div>
-			<center>
-				<p>
-					<b>STAP Tickets</b><br/>
-					<blockquote style="margin-right: 10px;">
-						A fullscale client for Request Tracker, seemlessly integrates with google groups to provide a smooth and effective workplace ticketing system.
-						<br/><br/><a href="https://itunes.apple.com/us/app/stap-tickets/id1244763348?ls=1&mt=8">View on App Store</a>
-					</blockquote>
-				</p>
-			</center>
-		</div>
-		<div class="containerRight">
-			<img src="./PenaltyBox.png" width="80" height="80" /><br/>
-			<div>
-				<img class="screenshot" src="./PenaltyBoxScreenshot.png"/>
-			</div>
-			<center>
-				<p>
-					<b>Penalty Box</b><br/>
-					<blockquote>
-						Fast and smooth gesture-based player penalty end time calculation. Commision for local hockey referees and coaches.
-						<br/><br/><a href="https://itunes.apple.com/us/app/penalty-box-calculator/id1180857716?ls=1&mt=8">View on App Store</a>
-					</blockquote>
-				</p>
-			</center>
-		</div>
-	</div>
+        </div>
 
-	<div style="padding-top: 32px; padding-bottom: 8px; clear:both;">
-		<p style="text-align: center;">
-			Feel free to contact me for more information or quotes at: <a href="mailto:AaronKovacsDev@gmail.com">AaronKovacsDev@gmail.com</a>
-		</p>
+        <div style="margin-top: 3em;"></div>
 
-		<p style="padding-top: 0px; text-align: center;">
-			Check out some of my projects over on <a href="https://github.com/AaronKovacs">Github</a>
-		</p>
-	</div>
+        <div class="bookshlf-container">
+            <div style="flex: 0 0 50%; height: 100%;">
+                <img src="./BookshlfScreenshot.png" class="bookshlf-screenshot" />
+            </div>
 
+            <div class="title-card">
+                <div style="display: flex;">
+                    <div style="flex: 0 0 80px;">
+                        <img src="./Bookshlf.png" width="80" height="80" style="border-radius: 20px;"></img>
+                    </div>
+                    <div style="flex: 1; margin-left: 5%; align-self: center;">
+                        <p class="name bookshlf-large-title">Bookshlf</p>
+                        <p class="name bookshlf-large-subtitle">Media worth sharing</p>
+                    </div>
+                </div>
+                <div class="bookshlf-quote-card">
+                    <p>“Bookshlf has created a new way for people to recommend media — whether it’s music, videos, articles, podcasts or even tweets — to their friends and to the rest of the world.”</p>
+                    <img src="./TechCrunch.png" width="50%" height="20"></img>
+                </div>
+                <div class="bookshlf-position-card">
+                    <h4>Position</h4>
+                    <p>Lead iOS and Backend Developer (March 2019 - Present)</p>
+                </div>
+                <a href="https://apps.apple.com/us/app/bookshlf-media-worth-sharing/id1486641946?mt=8" class="bookshlf-appstore"></a>
+            </div>
+
+        </div>
+
+        <div style="margin-top: 5em;"></div>
+
+        <div class="vytality-card">
+            <div style="flex: 0 0 30%; height: 100%;">
+                <img src="./vytality.png"/>
+            </div>
+            <div style="flex: 1;  align-self: center; margin-left: 5%;">
+                <p class="name" style="font-weight: 1000; font-size: 18pt;">Vytality Health</p>
+                <p class="name" style="font-weight: 300; font-size: 14pt;">Internship June-August 2020</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 5em;"></div>
+
+        <div class="comet-container">
+            <div style="flex: 0 0 50%; height: 100%;">
+                <img src="./CometScreenshot.jpg" class="comet-icon" />
+            </div>
+
+            <div class="title-card">
+                <div style="display: flex;">
+                    <div style="flex: 0 0 80px;">
+                        <img src="./Comet.png" width="80" height="80" style="border-radius: 20px;"></img>
+                    </div>
+                    <div style="flex: 1; margin-left: 5%; align-self: center;">
+                        <p class="name comet-title">Comet</p>
+                        <p class="name comet-subtitle">for reddit</p>
+                    </div>
+                </div>
+                <div class="comet-quote-card">
+                    <p>
+                        Comet is the ultimate way to browse reddit. Fast, yet beautiful. Functionally robust, but remarkably intuitive. With a forward looking iOS-compliant design and navigation, zero corporate meddling, and advanced alien technology, it's the most sophisticated reddit app to date.
+                    </p>
+                </div>
+                <a class="comet-appstore" href="https://itunes.apple.com/us/app/comet-for-reddit/id1146204813?ls=1&mt=8"></a>
+            </div>
+        </div>
+
+        <div style="margin-top: 5em;"></div>
+
+
+        <div class="vytality-card">
+            <div style="flex: 0 0 30%; height: 100%;">
+                <img src="./hatchet-logo.png"/>
+            </div>
+            <div style="flex: 1;  align-self: center; margin-left: 5%;">
+                <a href="https://gwhatchet.com"><p class="name" style="font-weight: 1000; font-size: 18pt; colo">The GW Hatchet</p></a>
+                <p class="name" style="font-weight: 300; font-size: 14pt;">Web Developer (2019-Present)</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 5em;"></div>
+
+
+        <div class="disaster-consult-container">
+            <div class="disaster-consult-title-card">
+                <div style="flex: 0 0 80px;">
+                    <img src="./disasterconsult.png" width="80" height="80" style="border-radius: 20px;"></img>
+                </div>
+                <div style="flex: 1; margin-left: 5%; align-self: center;">
+                    <p class="name disaster-consult-title">Disaster Consult</p>
+                </div>
+            </div>
+            <div style="width: 100%; height: 20em;">
+                <img src="./DisasterConsultScreenshot.png" class="disaster-consult-screenshot" />
+            </div>
+
+            <div style="margin-top: 1em;">
+                <div class="disaster-consult-quote-card">
+                    <p>Website for an interdisciplinary team of over 30 doctors, professors, and students from GW’s Medical and Engineering schools, which provides health care workers with up- to-date information about dealing with the COVID-19 pandemic. <a href="https://www.disasterconsult.org">Website Link</a></p>
+                </div>
+
+                <div class="disaster-consult-position">
+                    <h4>Position</h4>
+                    <p>Backend Developer (2020-Present)</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="mobile-collapse-space"></div>
+
+        <div class="container" style="margin-bottom: 5em">
+            <div class="containerLeft">
+                <div class="app-title-card">
+                    <div style="flex: 0 0 80px;">
+                        <img src="./ScreenPlay.png" width="80" height="80" style="border-radius: 20px;"></img>
+                    </div>
+                    <div style="flex: 1; margin-left: 5%; align-self: center;">
+                        <p class="name app-title">Queued</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="screenshot" src="./ScreenPlayScreenshot.png"/>
+                </div>
+                <center>
+                    <p>
+                       <blockquote style="margin-right: 10px;">
+                          A watershed app that gathers data about movies and TV from across the internet into a single easily digested feed. Spend less time looking and more time watching.
+                          <br/><br/><a href="https://itunes.apple.com/us/app/queued-movie-and-tv-watchlist/id1445325036?ls=1&mt=8">View on App Store</a>
+                      </blockquote>
+                  </p>
+              </center>
+              <div class="app-collapse-space"></div>
+          </div>
+
+          <div class="containerRight">
+            <div class="app-title-card">
+                <div style="flex: 0 0 80px;">
+                    <img src="./BASDEcho.png" width="80" height="80" style="border-radius: 20px;"></img>
+                </div>
+                <div style="flex: 1; margin-left: 5%; align-self: center;">
+                    <p class="name app-title">BASD Echo</p>
+                </div>
+            </div>
+            <div>
+                <img class="screenshot" src="./BASDEchoScreenshot.jpg"/>
+            </div>
+            <center>
+                <p>
+                   <blockquote>
+                      The school newspaper reimagined. Currently available on the App Store with new issues every monday.
+                      <br/><br/><a href="https://echo.basd.k12.pa.us/">Website</a>
+                      <br/><a href="https://itunes.apple.com/us/app/basd-echo/id1438468307?ls=1&mt=8">View on App Store</a>
+                  </blockquote>
+              </p>
+          </center>
+          <div class="app-collapse-space"></div>
+      </div>
+  </div>
+
+  <div class="container">
+      <div class="containerLeft">
+        <div class="app-title-card">
+            <div style="flex: 0 0 80px;">
+                <img src="./RequestRobin.png" width="80" height="80" style="border-radius: 20px;"></img>
+            </div>
+            <div style="flex: 1; margin-left: 5%; align-self: center;">
+                <p class="name app-title">STAP Tickets</p>
+            </div>
+        </div>
+        <div>
+            <img class="screenshot" src="./RequestRobinScreenshot.png"/>
+        </div>
+        <center>
+            <p>
+                <blockquote style="margin-right: 10px;">
+                  A fullscale client for Request Tracker, seemlessly integrates with google groups to provide a smooth and effective workplace ticketing system.
+                  <br/><br/><a href="https://itunes.apple.com/us/app/stap-tickets/id1244763348?ls=1&mt=8">View on App Store</a>
+              </blockquote>
+          </p>
+      </center>
+      <div class="app-collapse-space"></div>
+  </div>
+  <div class="containerRight">
+    <div class="app-title-card">
+        <div style="flex: 0 0 80px;">
+            <img src="./GameBuzzer.png" width="80" height="80" style="border-radius: 20px;"></img>
+        </div>
+        <div style="flex: 1; margin-left: 5%; align-self: center;">
+            <p class="name app-title">Friend Game Buzzer</p>
+        </div>
+    </div>
+    <div>
+        <img class="screenshot" src="./GameBuzzerScreenshot.png"/>
+    </div>
+    <center>
+        <p>
+           <blockquote>
+              Friend Game Buzzer is the perfect app to manage your next trivia night. One person can host up to 64 other contestants who can buzz in during questions. Currently has over <b>70k</b> downloads!
+              <br/><br/><a href="https://itunes.apple.com/us/app/friend-game-buzzer/id1303196209?ls=1&mt=8">View on App Store</a>
+          </blockquote>
+      </p>
+  </center>
+  <div class="app-collapse-space"></div>
+</div>
+</div>
+
+</div>
 
 </body>
-<footer>
+<footer style="color: white; margin-top: 5em; margin-bottom: 5em;">
 	<center>
-		&copy; 2020 Aaron Kovacs All Rights Reserved
+		2020 Aaron Kovacs All Rights Reserved
 	</center>
 </footer>
 </html>
