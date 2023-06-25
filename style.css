@@ -1,0 +1,739 @@
+@font-face {
+    font-family: 'CircularStd';
+    src: url('fonts/CircularStd.otf'); /* IE9 Compat Modes */
+}
+
+html {
+    background-color: black;
+}
+
+body {
+ font-family: 'Varela Round', sans-serif;
+ max-width: 600px;
+ margin: 0 auto;
+ padding: 0px 20px 40px 20px;
+ font-size: 1.1em;
+ line-height: 1.6em;
+ color: #000;
+}
+
+.profile {
+    border-radius: 50%;
+    margin-left: 1.5em;
+    height: 100%;
+}
+
+.color-bar-container {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+}
+
+.color-bars {
+    height: 20px;
+}
+
+.color-bars:nth-child(1) {
+    background-color: #4CA7E1;
+
+}
+
+.color-bars:nth-child(2) {
+    background-color: #50AF61;
+}
+
+.color-bars:nth-child(3) {
+    background-color: #F5C846;
+}
+
+.color-bars:nth-child(4) {
+    background-color: #E9903F;
+}
+
+.color-bars:nth-child(5) {
+    background-color: #D74030;
+}
+
+
+h1 {
+ background-size: 300px auto;
+ font-family: 'Varela Round', sans-serif;
+ margin: 0px;
+ text-align: center;
+ font-weight: 200;
+ font-size: 3.2em;
+ line-height: 1.1em;
+ color: #000;
+}
+
+h2 {
+ font-family: 'Varela Round', sans-serif;
+ font-weight: 200;
+ font-size: 1.8em;
+ margin-top: 50px;
+ line-height: 1.1em;
+}
+
+h3 {
+ font-family: 'Varela Round', sans-serif;
+ font-weight: 150;
+ font-size: 1.4em;
+ margin-top: 50px;
+ line-height: 2.0em;
+}
+
+h4 {
+ font-family: 'Varela Round', sans-serif;
+ font-weight: 500;
+ font-size: 1.1em;
+}
+
+strong {
+ font-weight: 600;
+}
+
+b {
+ font-weight: 500;
+ color: white;
+}
+
+a {
+ color: #6ea3f4;
+ text-decoration: none;
+}
+
+blockquote {
+ margin: 0;
+ padding: 10px 20px;
+ background-color: #1A1A1A;
+ border-radius: 16px;
+ color: white;
+}
+
+.subtitle p {
+ font-family: 'Varela Round', sans-serif;
+ font-weight: 400;
+ font-size: 1.3em;
+}
+
+
+
+.blankIcon {
+ border-radius: 25%;
+ background-color: #EFEFEF;
+}
+
+.blankScreenshot {
+ border-radius: 8px;
+ background-color: #EFEFEF;
+}
+
+.container {
+ width: 100%;
+ margin: auto;
+}	
+
+.containerLeft {
+ width: 100%;
+ float: left;
+}
+
+.containerRight {
+ width: 100%;
+ float: left;
+}
+
+img {
+ margin-left: 0;
+}
+
+.screenshot {
+    border-radius: 8px;
+    width: 100%;
+
+}
+
+.icon {
+    border-radius: 30%
+}
+
+@media only screen and (min-width: 690px) {
+ .containerLeft {
+    width: 50%;
+
+    float: left;
+    align-self: center;
+}
+.containerRight {
+    margin-left: 52%;
+    width: 50%;
+    float: none;
+}
+
+img {
+    margin-left: 0%;
+}
+
+.screenshot {
+    width: auto;
+    height: 600px;
+}
+
+}
+
+footer {
+ color: #b4b5b7;
+}
+
+.link-circle-container {
+    position: absolute; 
+    bottom: 20px; 
+    right: 20px; 
+    display: inline-block; 
+    margin-right: 10px;
+}
+
+.link-circle-button {
+    background-color: #292929;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.link-circle-button img {
+    object-fit: contain; 
+    width: 100%; 
+    height: 100%; 
+    color: white;
+}
+
+.real-name-container {
+    flex: 1; 
+    background: black; 
+    align-self: center;
+}
+
+.real-name-container h1 {
+    text-shadow: 2px 2px 4px red, 2px 2px 4px orange, 2px 2px 6px yellow;
+    font-family: 'Roboto', sans-serif; 
+    font-style: oblique; color:white; 
+    font-weight: 2000; 
+    font-size: 31pt;
+}
+
+.white-header {
+    background-color: white; 
+    position: absolute; 
+    left: 0; top: 0; 
+    height: 310px; 
+    width: 100vw; 
+    z-index: -1;
+}
+
+body {
+    margin-top: 5em;
+}
+
+.header-container {
+    margin-top:10em;
+    width: 93%;
+    height: 200px;
+    background: black;
+    margin: auto;
+    padding: 20px; 
+    display: flex; 
+    border-radius: 15px 15px 0 0; 
+    position: relative;
+}
+
+.profile-img-container {
+    flex: 0 0 40%; 
+    height: 200px; 
+    background: black;
+}
+
+.profile-img-container img {
+    object-fit: contain;
+}
+
+
+.bookshlf-container {
+    margin-top:10em; 
+    margin-bottom:10em;
+    width: 100%;
+    height: 590px;
+    background: black;
+    margin: auto;
+    display: flex; 
+    border-radius: 15px; 
+    position: relative;
+}
+
+.bookshlf-screenshot {
+    object-fit: cover;  
+    width: 100%; 
+    height: 100%; 
+    border-radius: 15px;
+}
+
+.bookshlf-large-title {
+    font-family: 'Roboto', sans-serif;
+    color:white; font-weight: 1000; 
+    font-size: 20pt; 
+    margin: 0; 
+    line-height: 1em;
+}
+
+.bookshlf-large-subtitle {
+    font-family: 'Roboto', sans-serif;
+    color:white; font-weight: normal; 
+    font-size: 10pt; 
+    margin: 0; 
+    line-height: 1em;
+}
+
+.bookshlf-quote-card {
+    margin-top:1em; 
+    width: 100%; 
+    background: #1A1A1A; 
+    margin: auto; 
+    border-radius: 15px;
+    position: relative;
+    padding-bottom: 0.5em;
+}
+
+.bookshlf-quote-card p {
+    line-height: 1.5em; 
+    color:white; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12pt; 
+    padding: 20px; 
+    text-align: center; 
+    margin-bottom: 0;
+}
+
+.bookshlf-quote-card img {
+    object-fit: contain; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+    margin-bottom: 1em;
+}
+
+.bookshlf-position-card {
+    margin-top:1em; 
+    width: 100%; 
+    background: #1A1A1A; 
+    margin: auto; 
+    border-radius: 15px; 
+    position: relative; 
+    padding-bottom: 0.5em;
+}
+
+.bookshlf-position-card h4{
+    line-height: 1.5em; 
+    color:white; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12pt; 
+    font-weight: bold; 
+    padding: 20px; 
+    text-align: left; 
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+
+.bookshlf-position-card p {
+    line-height: 1.5em; 
+    color: white; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 10pt; 
+    padding: 20px; 
+    text-align: left; 
+    margin-bottom: 0; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+    margin-top: 0; 
+    margin-bottom: 0.4em;
+}
+
+.bookshlf-appstore {
+    display: block;
+    overflow: hidden;
+    background: url(./assets/AppStore.svg) no-repeat;
+    width: 135px;
+    height: 40px; 
+    margin-top: 1em; 
+    margin-left: auto;
+    margin-right: auto
+}
+
+.college-card {
+    margin-top: 10em;
+    margin-bottom: 10em;
+    width: 93%;
+    height: 120px;
+    background: #1A1A1A;
+    margin: auto;
+    padding: 20px; 
+    display: flex; 
+    border-radius: 15px; 
+    position: relative;
+}
+
+.college-card img {
+    object-fit: contain;  
+    width: 100%; 
+    height: 100%;
+}
+
+.college-card-title {
+    font-family: 'Roboto', sans-serif; 
+    color:white; 
+    font-weight: 1000; 
+    font-size: 18pt; 
+    margin: 0;
+}
+
+.college-card-subtitle {
+    font-family: 'Roboto', 
+    sans-serif;  
+    color:white; 
+    font-weight: 300; 
+    font-size: 14pt; 
+    margin: 0;
+}
+
+.college-card-pretitle {
+    font-family: 'Roboto', 
+    sans-serif;  
+    color:white; 
+    font-weight: 300;
+    opacity: 0.6;
+    font-size: 14pt; 
+    margin: 0;
+}
+
+.vytality-card {
+    margin-top:10em; 
+    margin-bottom:10em;
+    width: 93%;
+    height: 120px;
+    background: #1A1A1A;
+    margin: auto;
+    padding: 20px; 
+    display: flex; 
+    border-radius: 15px; 
+    position: relative;
+}
+
+.vytality-card img{
+    object-fit: contain;  
+    width: 100%; 
+    height: 100%;
+}
+
+.vytality-card p{
+    font-family: 'Roboto', sans-serif; 
+    color:white; margin: 0;
+}
+
+.comet-container {
+    margin-top:10em; 
+    margin-bottom:10em;
+    width: 100%;
+    height: 590px;
+    background: black;
+    margin: auto;
+    display: flex; 
+    border-radius: 15px; 
+    position: relative;
+}
+
+.comet-icon {
+    object-fit: cover;  
+    width: 100%; 
+    height: 100%; 
+    border-radius: 15px;
+}
+
+.comet-title {
+    font-family: 'Roboto', sans-serif; 
+    color:white; 
+    font-weight: 1000; 
+    font-size: 20pt; 
+    margin: 0; 
+    line-height: 1em;
+}
+
+.comet-subtitle {
+    font-family: 'Roboto', sans-serif; 
+    color:white; 
+    font-weight: normal; 
+    font-size: 10pt; 
+    margin: 0; 
+    line-height: 1em;
+}
+
+.comet-quote-card {
+    margin-top:1em; 
+    width: 100%; 
+    background: #1A1A1A; 
+    margin: auto; 
+    border-radius: 15px; 
+    position: relative; 
+    padding-bottom: 0.5em;
+}
+
+.comet-quote-card p {
+    line-height: 1.5em; 
+    color:white; 
+    font-family: 'Roboto', 
+    sans-serif; 
+    font-size: 12pt; 
+    padding: 20px; 
+    text-align: center; 
+    margin-bottom: 0;
+}
+
+.disaster-consult-container {
+    margin-top:10em; 
+    margin-bottom:10em;
+    width: 100%;
+    height: 590px;
+    background: black;
+    margin: auto; 
+    border-radius: 15px; 
+    position: relative;
+}
+.disaster-consult-title {
+    font-family: 'Roboto', sans-serif; 
+    color: white; 
+    font-weight: 1000; 
+    font-size: 20pt; 
+    margin: 0; 
+    line-height: 1em;
+}
+
+.disaster-consult-screenshot {
+    object-fit: cover;  
+    width: 100%; 
+    height: 100%; 
+    border-radius: 15px;
+}
+
+.disaster-consult-quote-card {
+    margin-top:1em; 
+    width: 100%; 
+    background: #1A1A1A; 
+    margin: auto; 
+    border-radius: 15px; 
+    position: relative; 
+    padding-bottom: 0.5em;
+}
+
+.disaster-consult-quote-card p {
+    line-height: 1.5em; 
+    color:white; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12pt; 
+    padding: 20px; 
+    text-align: center; 
+    margin-bottom: 0;
+}
+
+.disaster-consult-position {
+    margin-top:1em; 
+    width: 100%; 
+    background: #1A1A1A; 
+    margin: auto; 
+    border-radius: 15px; 
+    position: relative; 
+    padding-bottom: 0.5em;
+}
+
+.disaster-consult-position h4 {
+    line-height: 1.5em; 
+    color:white; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12pt; 
+    font-weight: bold; 
+    padding: 20px; 
+    text-align: left; 
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+
+.disaster-consult-position p {
+    line-height: 1.5em; 
+    color:white; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 10pt; 
+    padding: 20px; 
+    text-align: left; 
+    margin-bottom: 0; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+    margin-top: 0; 
+    margin-bottom: 0.4em;
+}
+
+.title-card {
+    flex: 1;  
+    align-self: 
+    flex-start; margin-left: 5%;
+}
+
+.disaster-consult-title-card {
+    display: flex;
+}
+
+.link-circles {}
+
+.page-content {}
+
+.mobile-collapse-space {
+    margin-top: 10em;
+}
+
+.app-collapse-space {
+    margin-top: 0;
+}
+
+.app-title-card {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.app-title {
+    font-family: 'Roboto', sans-serif; 
+    color: white; 
+    font-weight: 1000; 
+    font-size: 20pt; 
+    margin: 0; 
+    line-height: 1em;
+}
+
+.comet-appstore {
+    display: block;
+    overflow: hidden;
+    background: url(./assets/AppStore.svg) no-repeat;
+    width: 135px;
+    height: 40px; 
+    margin-top: 1em; 
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media only screen and (max-width: 600px) {
+    .app-title-card {
+        margin-bottom: 1em;
+    }
+
+    .app-title {
+        font-size: 20pt;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .college-card-pretitle {
+        font-size: 10pt; 
+    }
+
+    .mobile-collapse-space {
+        margin-top: 5em;
+    }
+
+    .app-collapse-space {
+        margin-top: 5em;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .white-header {
+        background-color: black;
+    }
+
+    .header-container {
+        display: block;
+        height: unset;
+        
+        width: 100%;
+        margin: none;
+        padding: 0;
+        padding-bottom: 3em;
+    }
+
+    .real-name-container {
+        margin-top: 1em;
+    }
+
+    .profile {
+        margin: auto;
+        display: block;
+    }
+
+    .link-circles {
+        margin: auto;
+        display: block;
+    }
+
+    .link-circle-container {
+        text-align: center;
+        position: relative;
+        display: block;
+        right: 0;
+        margin-right: 0;
+        margin-top: 2em;
+    }
+
+    .page-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .college-card {
+        width: 86%;
+    }
+
+    .vytality-card {
+        width: 86%;
+    }
+
+    .college-card-title {
+        font-size: 16pt;
+    }
+
+    .college-card-subtitle {
+        font-size: 12pt;
+    }
+
+    .bookshlf-container {
+        display: block;
+        height: unset;
+    }
+
+    .title-card {
+        margin-top: 1em;
+        margin-left: 0;
+    }
+
+    .comet-container {
+        display: block;
+        height: unset;
+    }
+
+    .disaster-consult-container {
+        height: unset;
+    }
+
+    .disaster-consult-title-card {
+        margin-bottom: 1em;
+    }
+
+}
